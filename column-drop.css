@@ -1,0 +1,33 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 30px;
+  padding: 20px;
+  justify-items: center;
+  justify-content: center;
+  align-items: start;
+}
+.box {
+  width: 95vw;
+  color: white;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.box h2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 320px) {
+  .box {
+    width: 300px;
+    color: white;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
